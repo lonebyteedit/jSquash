@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "downlevelIteration": true,
+    "module": "esnext",
+    "strict": true,
+    "moduleResolution": "node",
+    "composite": true,
+    "declarationMap": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ESNext", "WebWorker"]
+  },
+  "include": ["quantize.worker.ts", "_quantize.ts", "meta.ts", "emscripten-types.d.ts"]
+}
